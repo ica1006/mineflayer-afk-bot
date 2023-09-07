@@ -4,10 +4,10 @@ const waitUntil = require('wait-until');
 const bot_class = require('./bot_class.js')
 var jsonFile = require('jsonfile')
 
-const ip = "localhost"
-const port = 25565
-const username = "username"
-const password = "password"
+var ip = "localhost"
+var port = 25565
+var username = "username"
+var password = "password"
 
 if (process.argv.length != 6){
     console.log("Error de argumentos no valido. Argumentos: ip, port, username, password")
