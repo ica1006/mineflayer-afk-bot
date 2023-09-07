@@ -1,0 +1,1 @@
+# mineflayer-afk-bot
