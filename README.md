@@ -1,6 +1,6 @@
 # mineflayer-afk-bot
 
-Minecraft bot created to bee AFK at server farms. It's ready to deploy using docker. Update `docker-compose.yml` with your server and bot information.
+Minecraft bot created to be AFK at server farms. It's ready to deploy using docker. Update `docker-compose.yml` with your server and bot information.
 
 Tis bot is ment to be used in your own spigot/paper server.
 
