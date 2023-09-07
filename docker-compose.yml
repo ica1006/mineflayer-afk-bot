@@ -1,0 +1,38 @@
+version: "3.2"
+services:
+  slave1:
+    container_name: mineflayer-slave1
+    image: mineflayer-bot:latest
+    restart: unless-stopped
+    environment:
+      - IP=localhost
+      - PORT=25565
+      - USERNAME=username1
+      - PASSWORD=authmepassword
+  slave2:
+    container_name: mineflayer-slave2
+    image: mineflayer-bot:latest
+    restart: unless-stopped
+    environment:
+      - IP=localhost
+      - PORT=25565
+      - USERNAME=username1
+      - PASSWORD=authmepassword
+  slave3:
+    container_name: mineflayer-slave3
+    image: mineflayer-bot:latest
+    restart: unless-stopped
+    environment:
+      - IP=localhost
+      - PORT=25565
+      - USERNAME=username1
+      - PASSWORD=authmepassword
+  slave4:
+    container_name: mineflayer-slave4
+    image: mineflayer-bot:latest
+    restart: unless-stopped
+    environment:
+      - IP=localhost
+      - PORT=25565
+      - USERNAME=username1
+      - PASSWORD=authmepassword
