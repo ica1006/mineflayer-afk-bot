@@ -12,4 +12,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["nmp", "start ${IP} ${PORT} ${USERNAME} ${PASSWORD}"]
+CMD ["node", "app.js ${IP} ${PORT} ${USERNAME} ${PASSWORD}"]
