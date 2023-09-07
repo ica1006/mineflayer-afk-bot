@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "mineflayer": "^4.14.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "wait-until": "^0.0.2"
+  },
+  "type": "commonjs"
+}
